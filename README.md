@@ -15,8 +15,9 @@ values-v19
 
 values-v21
    
-![image](http://i.imgur.com/R62rr2H.png)  
-
+![image](http://i.imgur.com/R62rr2H.png) 
+  
+   
 2. 在AndroidManifest.xml中設置Theme
    
 ![image](http://i.imgur.com/8eswcVK.png)  

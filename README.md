@@ -7,12 +7,12 @@
 
 values
    
-![image](http://i.imgur.com/b8EOSDD.png)  
+![image](http://i.imgur.com/1luqAPx.png)  
   
 values-v19
    
-![image](http://i.imgur.com/b8EOSDD.png)  
+![image](http://i.imgur.com/c2C8zYQ.png)  
 
 values-v21
    
-![image](http://i.imgur.com/b8EOSDD.png)  
+![image](http://i.imgur.com/R62rr2H.png)  

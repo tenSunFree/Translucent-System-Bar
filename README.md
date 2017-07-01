@@ -16,3 +16,13 @@ values-v19
 values-v21
    
 ![image](http://i.imgur.com/R62rr2H.png)  
+
+2. 在AndroidManifest.xml中設置Theme
+   
+![image](http://i.imgur.com/8eswcVK.png)  
+
+3. 在Activity的背景, 添加想要的顏色
+   再添加android:fitsSystemWindows: true
+   
+![image](http://i.imgur.com/kp7xkOT.png)  
+

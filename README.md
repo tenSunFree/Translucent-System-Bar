@@ -7,7 +7,11 @@
 
 values
    
-![image](http://i.imgur.com/1luqAPx.png)  
+```xml
+<style name="ImageTranslucentTheme" parent="AppTheme">
+    <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
+</style>
+```
   
 values-v19
    

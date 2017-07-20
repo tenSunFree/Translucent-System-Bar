@@ -35,7 +35,9 @@ values-v21
   
 2. 在AndroidManifest.xml中設置Theme
    
-![image](http://i.imgur.com/8eswcVK.png)  
+```xml
+android:theme="@style/ImageTranslucentTheme"
+``` 
 
 3. 在Activity的背景, 添加想要的顏色
    再添加android:fitsSystemWindows: true

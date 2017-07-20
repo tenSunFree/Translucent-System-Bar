@@ -49,3 +49,7 @@ android:fitsSystemWindows="true"
 android:background="@color/list_bg"
 ``` 
 
+參考自以下資源
+--------
+http://www.jianshu.com/p/0acc12c29c1b
+

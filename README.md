@@ -44,5 +44,8 @@ values-v21
 3. 在Activity的背景, 添加想要的顏色
    再添加android:fitsSystemWindows: true
    
-![image](http://i.imgur.com/kp7xkOT.png)  
+```xml
+android:fitsSystemWindows="true"
+android:background="@color/list_bg"
+``` 
 

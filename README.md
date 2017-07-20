@@ -36,7 +36,9 @@ values-v21
 2. 在AndroidManifest.xml中設置Theme
    
 ```xml
-android:theme="@style/ImageTranslucentTheme"
+<activity
+            android:theme="@style/ImageTranslucentTheme"
+            android:name=".xxx">
 ``` 
 
 3. 在Activity的背景, 添加想要的顏色

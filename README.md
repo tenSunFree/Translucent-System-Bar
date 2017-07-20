@@ -9,19 +9,30 @@ values
    
 ```xml
 <style name="ImageTranslucentTheme" parent="AppTheme">
-    <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
+    <!--在Android 4.4之前的版本上運行, 直接跟隨系統主題-->
 </style>
 ```
   
 values-v19
    
-![image](http://i.imgur.com/c2C8zYQ.png)  
+```xml
+<style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+</style>
+``` 
 
 values-v21
    
-![image](http://i.imgur.com/R62rr2H.png) 
+```xml
+<style name="ImageTranslucentTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowTranslucentStatus">false</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    <!--Android 5.x開始 需要把顏色設置透明, 否則導航欄會呈現系統默認的淺灰色-->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+</style>
+``` 
   
-   
 2. 在AndroidManifest.xml中設置Theme
    
 ![image](http://i.imgur.com/8eswcVK.png)  
